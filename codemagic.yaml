@@ -11,8 +11,6 @@ workflows:
         - group_name
       vars:
         PUBLIC_ENV_VAR: "value here"
-    flutter: stable
-    xcode: latest
     cache:
       cache_paths:
         - ~/.pub-cache
